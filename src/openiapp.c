@@ -125,7 +125,7 @@ void help(void){
     printf("%sHELP \n", KYEL);
     printf("%s    [*] IPA Path from pc or mac | Name of IPA \n", KYEL);
     printf("%s    [*] Example: \n", KYEL);
-    printf("%s    [*] ./openiapp /Users/3x7R00Tripper/Desktop/app.ipa app.ipa \n", KYEL);
+    printf("%s    [*] ./openiapp /Users/cal0x/Desktop/app.ipa app.ipa \n", KYEL);
     printf("%s", KNRM);
 }
 void home(void) {
@@ -133,7 +133,7 @@ void home(void) {
     system("chmod +x resources/home");
     system("./resources/home");
     printf("    [*] Welcome to openiapp\n");
-    printf("%s    [*] Thanks for using openiapp, opensource IPA App installer program for iOS devices by @3x7R00Tripper.\n", KMAG);
+    printf("%s    [*] Thanks for using openiapp, opensource IPA App installer program for iOS devices by @cal0x.\n", KMAG);
     printf("%s    [*] Maybe you use a tool wich use openiapp's source code or you run a compiled version of openiapp.\n", KCYN);
     printf("%s", KNRM);
 }
